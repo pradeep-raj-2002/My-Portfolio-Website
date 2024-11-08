@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradeep's Portfolio</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="mediaqueries.css" >
+    <script src="https://kit.fontawesome.com/c7ff251cec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="first-nav">
+        <div class="logo">Pradeep Raj</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <nav id="second-nav" class="visible">
+        <div class="secondnav-logo">Pradeep raj</div>
+        <div class="icon-group">
+            <div id="icon1" onclick="toggleicon()">
+                <i class="fa-solid fa-bars fa-2x "></i> 
+            </div>
+            <div class="visible" id="icon2" onclick="toggleicon()">
+                <i class="fa-solid fa-xmark fa-2x "></i>
+            </div>
+        </div>
+    </nav>
+    <div class="links visible" id="nav-links2">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <section id="profile">
+        <div class="section-profile-pic">
+            <img src="./assests/pradeep-profile-pic.png" alt="profile_picture" class="profile-pic-styling">
+        </div>
+        <div class="section-text">
+            <p class="section-greeting">Hello, I'm</p>
+            <h1 class="section-title">Pradeep Raj</h1>
+            <p class="section-role">Frontend Developer</p>
+            <div class="button-container">
+                <button class="btn-styling1" onclick="window.open('./assests/pradeep-updated-resume.pdf')">Download CV</button>
+                <button class="btn-styling2" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div class="socialmedia-container">
+                <img src="./assests/linkedin.png" alt="linkedin_logo" class="social-media-logo-styling" onclick="window.open('https://www.linkedin.com/in/pradeepraj2002','_blank')" >
+                <img src="./assests/github.png" alt="github_logo" class="social-media-logo-styling" onclick="window.open('https://github.com/pradeep-raj-2002','_blank')">
+            </div>
+        </div>
+       
+
+    </section>
+    <section id="about">
+        <p class="section-para">Get To Know More</p>
+        <h1 class="section-heading">About Me</h1>
+        <div class="about-container">
+            <div class="about-me-pic-container">
+                <img src="./assests/about-section-image.jpg" alt="profile-picture" class="about-section-profile-pic">
+            </div>
+            <div class="about-text-section">
+                <div class="about-me-education-container">
+                    <img src="./assests/education.png" alt="education-logo" class="icon">
+                    <h1>Education</h1>
+                    <p class="qualification">B.Tech, Electrical & Electronics Engineering</p>
+                    <p class="qualification">Diploma, Electrical & Electronics Engineering</p>
+                </div>
+                <div>
+                    <p>Passionate about creating seamless, user-friendly web experiences, I am a web development enthusiast with a strong foundation in front-end and back-end technologies. I’m constantly learning and experimenting to bring fresh ideas to life through code. Always curious and driven by a desire to solve real-world problems, I look forward to contributing innovative solutions to the web development landscape.</p>
+                </div>
+            </div>
+            
+        </div>
+       
+        <img src="./assests/arrow.png" alt="down_arrow_logo" onclick="location.href='#experience'" class="down-arrow-logo">
+        
+    </section>
+    <section id="experience">
+        <p class="section-para">Explore My</p>
+        <h1 class="section-heading">Experience</h1>
+        <div class="experience-container">
+            <div class="skill-section">
+                <h2 class="experience-subtitle">Frontend Development</h1>
+                <div class="article-container">
+                    <article>
+                        <img src="./assests/checkmark.png" alt="checkmark-logo" class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                        <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assests/checkmark.png" alt="checkmark-logo" class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                        <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assests/checkmark.png" alt="checkmark-logo" class="icon">
+                        <div>
+                            <h3>Javascript</h3>
+                        <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assests/checkmark.png" alt="checkmark-logo" class="icon">
+                        <div>
+                            <h3>Bootstrap</h3>
+                        <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assests/checkmark.png" alt="checkmark-logo" class="icon">
+                        <div>
+                            <h3>React Js</h3>
+                        <p>Intermediate</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="skill-section">
+                <h2 class="experience-subtitle">Frontend Development</h1>
+                <div class="article-container">
+                    <article>
+                        <img src="./assests/checkmark.png" alt="checkmark-logo" class="icon">
+                        <div>
+                            <h3>SQL</h3>
+                        <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assests/checkmark.png" alt="checkmark-logo" class="icon">
+                        <div>
+                            <h3>Node Js</h3>
+                        <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assests/checkmark.png" alt="checkmark-logo" class="icon">
+                        <div>
+                            <h3>Express Js</h3>
+                        <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assests/checkmark.png" alt="checkmark-logo" class="icon">
+                        <div>
+                            <h3>Git</h3>
+                        <p>Intermediate</p>
+                        </div>
+                    </article>
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+        <img src="./assests/arrow.png" alt="down_arrow_logo" onclick="location.href='#projects'" class="down-arrow-logo">
+        
+    </section>
+    <section id="projects">
+        <p class="section-para">Browse My Recent</p>
+        <h1 class="section-heading">Projects</h1>
+        <div class="projects-container">
+            <div class="projects-inner-container">
+                <div class="project">
+                    <img src="./assests/Todos.png" alt="project_picture" class="project-img">
+                    <h2>Todo's Application</h2>
+                    <button class="btn-styling1" onclick="window.open('https://pradeep2002.ccbp.tech/','_blank')">Visit</button>
+                </div>
+            </div>
+            <div class="projects-inner-container">
+                <div class="project">
+                    <img src="./assests/foodmunch.jpeg" alt="project_picture" class="project-img">
+                    <h2> Food Munch</h2>
+                    <button class="btn-styling1" onclick="window.open('https://pradeep1233.ccbp.tech/','_blank')">Visit</button>
+                </div>
+            </div>
+            <div class="projects-inner-container">
+                <div class="project">
+                    <img src="./assests/Wikipedia-Logo.png" alt="project_picture" class="project-img">
+                    <h2>Wikipedia clone</h2>
+                    <button class="btn-styling1" onclick="window.open('https://wikisearch2002.ccbp.tech/','_blank')">Visit</button>
+                </div>
+            </div>
+        </div>
+        <img src="./assests/arrow.png" alt="down_arrow_logo" onclick="location.href='#contact'" class="down-arrow-logo">
+        
+    </section>
+    <section id="contact">
+        <p class="section-para">Get In Touch</p>
+        <h1 class="section-heading">Contact Me</h1>
+        <div class="contact-container">
+
+            <div class="inner-contact-container">
+                <img src="./assests/email.png" alt="Mail-logo" class="icon">
+                <p class="contact-para"><a href="mailto:ppradeepraj69@gmail.com">ppradeepraj69@gmail.com</a></p>
+            </div>
+            <div class="inner-contact-container">
+                <img src="./assests/email.png" alt="linkedin_logo" class="icon">
+                <p class="contact-para"><a href="https://www.linkedin.com/in/pradeepraj2002" target="_blank">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div>
+            <p class="copyright-sty">Copyright &#169; 2023 John Doe. All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
